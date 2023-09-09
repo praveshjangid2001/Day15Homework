@@ -10,8 +10,8 @@ To use the image search engine, simply enter a search term into the search bar a
 
 The following code snippets show how to implement the image search engine:
 
-html
-```
+## html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -34,8 +34,8 @@ html
   </body>
 </html>
 ```
-css
-```
+## css
+```css
 body {
     margin: 0;
     font-family: sans-serif;
@@ -97,8 +97,8 @@ body {
     background: green;
   }
 ```
-js
-```
+## js
+```js
 const accessKey = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw";
 const form = document.querySelector("form");
 const searchInput = document.getElementById("search-input");
